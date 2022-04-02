@@ -48,6 +48,10 @@ header nav.show
 {
     top: 10px;
 }
+header nav ul
+{
+    list-style: none;
+}
 header nav ul li
 {
     padding: 10px 0;
@@ -258,7 +262,6 @@ main
     header nav ul
 {
     display: flex;
-    list-style: none;
     justify-content: space-evenly;
 }
 header nav ul a
